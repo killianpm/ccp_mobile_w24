@@ -17,7 +17,8 @@
     justify-items: center;
     color: #444;
     margin: 1%;
-    width: 90%;
+    min-width: 80%;
+    max-width: 90%;
 }
 
 .box {
@@ -85,16 +86,15 @@ img {
     display: block;
     padding: 5px;
     margin: 10px;
-    border: 5px solid #FFFFFF;
+    border: 3px solid #FFFFFF;
     min-width: 15%;
-    max-width: 25%;
+    max-width: %;
 }
 
 div {
     /* min-height: 50px; */
     padding: 10px;
     /* border: 3px solid #FFFFFF; */
-    width: 90%;
 }
 
 .img_description {
