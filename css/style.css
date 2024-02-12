@@ -46,7 +46,6 @@ body {
     font-family: Arial, Verdana;
     background-color: #000000; /* black background */
     color: #FFFFFF; /* white text */
-    /* margin: 2%; */
 }
 
 h1 {
@@ -81,7 +80,6 @@ p {
 }
 
 img {
-    /* width: 250px; */
     display: block;
     padding: 5px;
     margin: 10px;
@@ -91,9 +89,7 @@ img {
 }
 
 div {
-    /* min-height: 50px; */
     padding: 10px;
-    /* border: 3px solid #FFFFFF; */
     max-width: 95%;
 
 }
@@ -102,8 +98,6 @@ div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2px;
-    /* border: 2px solid white; */
-    /* width: 80%; */
     justify-content: left;
     align-items: center;
     border: 2px solid white;
