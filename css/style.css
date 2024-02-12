@@ -25,8 +25,8 @@
     color: #FFFFFF; /* white text */
     border: 1px solid #FFFFFF;
     border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
+    padding: 5%;
+    font-size: 2em;
 }
 
 a:link, a:visited {
