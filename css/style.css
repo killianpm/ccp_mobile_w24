@@ -1,0 +1,127 @@
+
+.skip {
+    position: absolute;
+    left: -9999px;
+    display: block;
+    text-align: center;
+}
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+
+#navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    color: #444;
+    margin: 1%;
+    width: 100%;
+}
+
+.box {
+    background-color: #383535;
+    color: #FFFFFF; /* white text */
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+a:link, a:visited {
+    color: #FFFFFF; /* white text */
+    text-decoration: none;
+}
+
+.active {
+    background-color: blueviolet;
+    color: #FFFFFF; /* white text */
+    border: 3px solid #FFFFFF;
+    text-transform: uppercase;
+}
+
+body {
+    font-size: 1em;
+    font-family: Arial, Verdana;
+    background-color: #000000; /* black background */
+    color: #FFFFFF; /* white text */
+    /* margin: 2%; */
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 3%;
+    color: blueviolet;
+}
+h2 {
+    font-size: 2em;
+    text-align: left;
+    padding-top: 3%; 
+    padding-bottom: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+h3 {
+    font-size: 1.5em;
+    text-align: left;
+    padding-top: 2%; 
+    padding-bottom: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+p {
+    font-size: 1em;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+
+img {
+    /* width: 250px; */
+    display: block;
+    margin: 0 auto;
+    border: 5px solid #FFFFFF;
+}
+
+div {
+    /* min-height: 50px; */
+    padding: 10px;
+    /* border: 3px solid #FFFFFF; */
+}
+
+.img_description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2px;
+    /* border: 2px solid white; */
+    /* width: 80%; */
+    justify-content: left;
+    align-items: center;
+    border: 2px solid white;
+    background-color: blueviolet;
+
+}
+
+.img3_gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    border: 2px solid white;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}
+
+.img4_gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    border: 2px solid white;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}
